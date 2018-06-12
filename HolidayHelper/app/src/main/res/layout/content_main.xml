@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cmpmchad.ljmu.ac.uk.holidayhelper.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/btnCurrencyConverter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currency Converter"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnWebsites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="recommended Holiday Sites"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@+id/btnCurrencyConverter"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginTop="38dp" />
+
+    <Button
+        android:id="@+id/btnPlanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Holiday Planner"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@+id/btnWebsites"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mainimg"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp" />
+
+</RelativeLayout>

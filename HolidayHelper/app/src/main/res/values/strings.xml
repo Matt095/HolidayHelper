@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Holiday Helper</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_currency_converter">CurrencyConverter</string>
+    <string name="title_activity_websites">Websites</string>
+    <string name="title_activity_planner">Planner</string>
+    <!--2 Arrays for the currency Converter class which are read into a spinner-->
+    <string-array name="select_country_from">
+        <item>GBP</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>JPY</item>
+    </string-array>
+    <string-array name="select_country_to">
+        <item>GBP</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>JPY</item>
+    </string-array>
+    <string name="ThomasCook"><a href =
+        "https://www.thomascook.com/holidays/">Thomas Cook</a></string>
+    <string name="Thomson"><a href =
+        "http://www.thomson.co.uk/holidays/all-inclusive">Thomson</a></string>
+    <string name="TravelSupermarket"><a href =
+        "https://www.travelsupermarket.com/en-gb/holidays/">Travel Supermarket</a></string>
+</resources>
